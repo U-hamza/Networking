@@ -17,14 +17,13 @@
 
 
 
-
 - There is a walkthrough option availabe which recommends default settings for running an instance.
 - The settings I used were:
     - AMI: Amazon Linux 2
     - Instance type: t3.micro (free)
     - Key pair: create/download one (you’ll need it to SSH)
 
--Then:
+- Then:
 Under Security Group, allow:
 SSH (port 22)
 HTTP (port 80)
@@ -39,7 +38,8 @@ HTTPS (port 443) (optional but recommended)
     - sudo systemctl enable nginx
 
 - Test it:
-    Go to your browser and type:  http://YOUR_PUBLIC_IP  ----> You should then see the NGINX welcome page
+    Go to your browser and type:
+      http://YOUR_PUBLIC_IP  ----> You should then see the NGINX welcome page
 
 
 <img width="1439" height="631" alt="Screenshot 2026-04-17 at 23 28 17" src="https://github.com/user-attachments/assets/7b5808e9-9c32-4404-bb99-b23c4e0a56e8" />
@@ -62,7 +62,11 @@ HTTPS (port 443) (optional but recommended)
 
 <img width="1408" height="627" alt="Screenshot 2026-04-19 at 12 23 52" src="https://github.com/user-attachments/assets/3a86a239-2ed7-4e39-8313-0fb7ed7928d2" />
 
+<br/>
 
+- You can also do another A record and set name: WWW (This will allow you to run your domain with www. as well)
+
+<img width="1090" height="269" alt="Screenshot 2026-04-19 at 12 24 16" src="https://github.com/user-attachments/assets/b5f221de-5050-477b-b124-a2e02dbb0514" />
 
 
 
