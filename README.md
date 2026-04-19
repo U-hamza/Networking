@@ -10,7 +10,7 @@
 
   
 
-<img width="1237" height="724" alt="Screenshot 2026-04-18 at 17 49 03" src="https://github.com/user-attachments/assets/139e26e0-006e-442e-8083-0626f7899a0f" />
+<img width="1220" height="715" alt="Screenshot 2026-04-18 at 17 49 03" src="https://github.com/user-attachments/assets/139e26e0-006e-442e-8083-0626f7899a0f" />
 
 
 
@@ -22,9 +22,9 @@
 
 - There is a walkthrough option availabe which recommends default settings for running an instance.
 - The settings I used were:
-AMI: Amazon Linux 2
-Instance type: t3.micro (free)
-Key pair: create/download one (you’ll need it to SSH)
+    - AMI: Amazon Linux 2
+    - Instance type: t3.micro (free)
+    - Key pair: create/download one (you’ll need it to SSH)
 
 -Then:
 Under Security Group, allow:
