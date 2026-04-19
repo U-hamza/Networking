@@ -38,8 +38,8 @@ HTTPS (port 443) (optional but recommended)
     - sudo systemctl enable nginx
 
 - Test it:
-    Go to your browser and type:
-      - http://YOUR_PUBLIC_IP  ----> You should then see the NGINX welcome page
+    Go to your browser and type: <br/>
+     http://YOUR_PUBLIC_IP  ----> You should then see the NGINX welcome page
 
 
 <img width="1420" height="631" alt="Screenshot 2026-04-17 at 23 28 17" src="https://github.com/user-attachments/assets/93521f9a-8ffd-4438-85ad-b5932f54cb98" />
