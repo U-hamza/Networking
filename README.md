@@ -17,7 +17,7 @@
 
 
 
-- There is a walkthrough option availabe which recommends default settings for running an instance.
+- There is a walkthrough option available which recommends default settings for running an instance.
 - The settings I used were:
     - AMI: Amazon Linux 2
     - Instance type: t3.micro (free)
@@ -73,6 +73,21 @@ HTTPS (port 443) (optional but recommended)
 <img width="1090" height="269" alt="Screenshot 2026-04-19 at 12 24 16" src="https://github.com/user-attachments/assets/b5f221de-5050-477b-b124-a2e02dbb0514" />
 
 <br/>
+
+- When you type your domain:
+  - DNS looks up the A record
+  - Finds your EC2 IP
+  - Browser sends request to your server
+  - NGINX responds with the webpage
+
+- Open your browser and type:
+  http://yourdomain.com
+
+- You should then see the NGINX welcome page
+
+  <img width="1428" height="586" alt="Screenshot 2026-04-18 at 00 17 32" src="https://github.com/user-attachments/assets/f41cfcc9-105b-488f-a12e-380582b0c71c" />
+
+  
 
 
 
