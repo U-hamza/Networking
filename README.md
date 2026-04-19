@@ -39,10 +39,12 @@ HTTPS (port 443) (optional but recommended)
 
 - Test it:
     Go to your browser and type:
-      http://YOUR_PUBLIC_IP  ----> You should then see the NGINX welcome page
+      - http://YOUR_PUBLIC_IP  ----> You should then see the NGINX welcome page
 
 
-<img width="1439" height="631" alt="Screenshot 2026-04-17 at 23 28 17" src="https://github.com/user-attachments/assets/7b5808e9-9c32-4404-bb99-b23c4e0a56e8" />
+<img width="1420" height="631" alt="Screenshot 2026-04-17 at 23 28 17" src="https://github.com/user-attachments/assets/93521f9a-8ffd-4438-85ad-b5932f54cb98" />
+
+
 
 
 
@@ -57,10 +59,12 @@ HTTPS (port 443) (optional but recommended)
     - Ipv4 address: copy your value in from your EC2 instance.
     - Proxy status: DNS only
     - TTL: Auto
+- Save and add record
 
 
 
-<img width="1408" height="627" alt="Screenshot 2026-04-19 at 12 23 52" src="https://github.com/user-attachments/assets/3a86a239-2ed7-4e39-8313-0fb7ed7928d2" />
+<img width="1104" height="465" alt="Screenshot 2026-04-19 at 12 23 52" src="https://github.com/user-attachments/assets/7413134e-35bf-45e5-b2e6-ec9a82253fa3" />
+
 
 <br/>
 
@@ -68,6 +72,7 @@ HTTPS (port 443) (optional but recommended)
 
 <img width="1090" height="269" alt="Screenshot 2026-04-19 at 12 24 16" src="https://github.com/user-attachments/assets/b5f221de-5050-477b-b124-a2e02dbb0514" />
 
+<br/>
 
 
 
