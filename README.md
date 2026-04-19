@@ -51,5 +51,21 @@ HTTPS (port 443) (optional but recommended)
 
 ## 4. Configure DNS (Create A record)
 
+- Go to your DNS provider (In my case cloudfare)
+- Go to DNS and then add record.
+- A record settings:
+    - Type: A
+    - Name: @ ( @ is used for root)
+    - Ipv4 address: copy your value in from your EC2 instance.
+    - Proxy status: DNS only
+    - TTL: Auto
+
+
+
+<img width="1408" height="627" alt="Screenshot 2026-04-19 at 12 23 52" src="https://github.com/user-attachments/assets/3a86a239-2ed7-4e39-8313-0fb7ed7928d2" />
+
+
+
+
 
 
